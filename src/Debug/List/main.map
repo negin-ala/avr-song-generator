@@ -1,0 +1,25 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+one_m                                                                             0x0260       4
+freq_hz                                                                           0x0264       4
+icr_pre_val                                                                       0x0268       4
+notes                                                                             0x026C      52
+lengths                                                                           0x02A0      52
+delays                                                                            0x02D4      52
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+icr_val                                                                           R4,R5        2
+i                                                                                 R7           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x000B7     54
+freq_cal                                                                          0x000ED     44
